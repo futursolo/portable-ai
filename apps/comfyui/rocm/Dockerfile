@@ -1,4 +1,4 @@
-ARG PYTORCH_BASE_IMAGE=ghcr.io/futursolo/pai-apps/base:pytorch-v2.8.0-rocm-v6.4.3-20250823
+ARG PYTORCH_BASE_IMAGE=ghcr.io/futursolo/pai-apps/base:pytorch-v2.6.0-rocm-v6.4.2-20250824
 ARG COMFYUI_VERSION=v0.3.52
 
 FROM bitnami/git:2.51.0 AS build-git
